@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+*{ font-family: Arial, Helvetica, sans-serif; }
+
+body{
+    background-color: rgb(245, 255, 209) !important;
+}
+
+.bg-gradient{
+    background: rgb(241, 245, 42);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-link.text-dark {
+       
+    text-align: center;   
+    width: 159px;    
+    background:rgb(245, 145, 52);
+    right:20px;
+    bottom: 2px;
+    font-size: 21px;
+    text-decoration: none;
+    border-radius: 18px;
+    transition:all 0.5s;
+    padding: 6px 20px;
+}
+
+.nav-link.text-dark:hover {
+    background: rgb(207, 121, 22) ;
+    transition:all 0.5s;
+}
+
+form {    
+    text-align: center;
+    margin: 0 auto;
+    width: 400px;    
+    padding: 1em;
+    border: 1px solid rgb(192, 25, 25);
+    border-radius: 1em;
+ 
+}
+/* 
+JS */
+li.principal {
+    text-align: center;
+    margin: 0 auto;
+    width: 400px;    
+    padding: 1em;
+    border: 1px solid rgb(192, 25, 25);
+    border-radius: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: center;
+}
+
+input {
+    font: 1em sans-serif;
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid rgb(153, 0, 0);
+}
+
+.container-text{
+    display: flex;    
+    justify-content: center;
+}
+
+.tamanhoopcoes{
+   font-size: 20px;
+ 
+}
